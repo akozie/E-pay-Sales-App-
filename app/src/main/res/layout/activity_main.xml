@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#404040"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/login_mobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter mobile number"
+        android:drawableRight="@drawable/user"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:layout_margin="20dp"
+        android:ems="10"
+        android:inputType="phone"/>
+
+    <EditText
+        android:id="@+id/login_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter password"
+        android:drawableRight="@drawable/password"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:layout_margin="20dp"
+        android:ems="10"
+        android:inputType="textPassword"/>
+
+    <TextView
+        android:id="@+id/login_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:textSize="22sp"
+        android:gravity="center"
+        android:background="#0055dd"
+        android:layout_marginEnd="80dp"
+        android:layout_marginStart="80dp"
+        android:padding="10dp"
+        android:text="LOGIN" />
+
+
+    <TextView
+        android:id="@+id/login_signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:textSize="22sp"
+        android:gravity="center"
+        android:background="#0055dd"
+        android:layout_marginEnd="80dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="30dp"
+        android:padding="10dp"
+        android:text="SIGN UP" />
+</LinearLayout>
